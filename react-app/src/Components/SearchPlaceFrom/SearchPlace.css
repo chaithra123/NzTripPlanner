@@ -1,0 +1,51 @@
+/*
+ * SearchPlace css File
+*/
+
+input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+
+#b
+{
+    size: 30%;
+}
+.SearchPlace {
+    /* propertys here */
+}
+
+input  {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .suggestion-item {
+    padding-left: 5px;
+    background:#f1f1f1;
+
+  }
+
+  .suggestion-item--active {
+    padding-left: 5px;
+    background: #c7c7c7;
+
+  } 
+
+  .suggestion-item span {
+    color: black;
+  }
+
+  .autocomplete-dropdown-container {
+    position: absolute;
+    z-index: 100;
+    background-color: #f1f1f1;
+    width: 400px;
+    text-align: left;
+    opacity: 0.9;
+    
+  }
+
+  
